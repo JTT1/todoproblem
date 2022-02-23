@@ -6,8 +6,7 @@ import { db, ROOT_REF } from './firebase/Config';
 export default function App() {
   const [newTodo, setNewTodo] = useState('');
 
-  // Tää toimii ainoastaan puhelimella ja se ei toimi vielä.
-  // 
+
   // const createTwoButtonAlert = () => Alert.alert(
   //   "Todolist", "Remove all items?", [{
   //     text: "Cancel",
